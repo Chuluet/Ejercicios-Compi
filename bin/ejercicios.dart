@@ -3,9 +3,11 @@ import 'package:ejercicios/Duplicados.dart' as Duplicados;
 import 'package:ejercicios/Frecuencia.dart' as Frecuencia;
 import 'package:ejercicios/Intercalar.dart' as Intercalar;
 import 'package:ejercicios/LetrasUnicas.dart' as LetrasUnicas;
+import 'package:ejercicios/Niveles.dart' as Niveles;
 import 'package:ejercicios/Rangos.dart' as Rangos;
 import 'package:ejercicios/Substring.dart' as Substring;
 import 'package:ejercicios/Rotacion.dart' as Rotacion;
+import 'package:ejercicios/SumaHojas.dart' as SumaHojas;
 
 void main(List<String> arguments) {
   print( {Anagramas.anagrama( ["eat", "tea", "tan", "ate", "nat", "bat"] )});
@@ -16,4 +18,6 @@ void main(List<String> arguments) {
   print(Intercalar.intercalar( ["1","2","3","4","5"], ["A","B"]));
   print(LetrasUnicas.letrasUnicas( ["hola", "casa", "perro", "luz"]));
   print(Frecuencia.frecuencia( "Hola mundo. Hola clase, hola estudiantes!"));
+  print(SumaHojas.sumarHojas(SumaHojas.construirArbolEjemplo()));
+  print(Niveles.niveles(Niveles.arbolB()));
 }
