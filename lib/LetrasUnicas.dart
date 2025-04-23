@@ -2,6 +2,9 @@ import 'dart:collection';
 //Ejemplo:
 // Input: ["hola", "casa", "perro", "luz"]
 // Output: ["hola", "luz"]
+// List: almacena las palabras con letras únicas
+// HashSet: elimina letras duplicadas para verificar unicidad
+
 List<String> letrasUnicas(List<String> palabras) {
   // Lista para guardar las palabras que tienen letras únicas
   List<String> l = [];

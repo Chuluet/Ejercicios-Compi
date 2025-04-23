@@ -3,6 +3,9 @@ import 'package:ejercicios/ArbolB.dart';
 int sumarHojas(ArbolB a) {
   return sumarHojasNodo(a.raiz); // Llama a la función recursiva comenzando desde la raíz
 }
+// ArbolB: estructura principal que contiene los nodos del árbol
+// NodoB: representa cada nodo del árbol, incluyendo hojas y nodos internos
+
 
 // Función recursiva para sumar los valores de las hojas
 int sumarHojasNodo(NodoB<int>? n) {

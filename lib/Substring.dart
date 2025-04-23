@@ -3,6 +3,9 @@
 // String s = "barfoothefoobarman";
 // List<String> words = ["foo", "bar"];
 // Output esperado: [0, 9]
+// List<int>: almacena los índices donde coinciden los substrings
+// List<String>: contiene las palabras a buscar en el string principal
+
 
 List<int> indexFinder(List<String> words, String s) {
   // Lista para guardar los índices donde se encuentran substrings válidos

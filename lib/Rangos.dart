@@ -2,6 +2,8 @@
 // Ejemplo de ejecución:
 // print(rango([0, 1, 2, 4, 6, 7, 9]));
 // Salida esperada: ["0->2", "4", "6->7", "9"]
+// List<String>: almacena los rangos generados como texto
+
 
 
 List<String> rango(List<int> n) {

@@ -1,6 +1,9 @@
 // Ejemplo:
 // Input:"uno dos tres cuatro cinco", 2));
 // Output: "[cuatro, cinco, uno, dos, tres]"
+// List<String>: divide y almacena las palabras para rotarlas
+// sublist: extrae secciones específicas de la lista para reordenar
+
 
 String rotar(String palabras, int k) {
   // Dividimos la cadena de entrada 'palabras' en una lista de palabras usando el espacio como separador.

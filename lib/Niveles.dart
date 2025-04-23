@@ -3,6 +3,9 @@ import 'dart:collection'; // Importa las colecciones, incluyendo Queue para BFS
 import 'ArbolB.dart'; // Importa la clase del árbol binario y NodoB
 
 // Función que retorna una lista de listas con los niveles del árbol
+// List<List<int>>: almacena los valores por niveles del árbol
+// Queue: implementa BFS para recorrer el árbol nivel por nivel
+
 List<List<int>> niveles(ArbolB arbol) {
   List<List<int>> resultado = []; // Lista para almacenar los niveles
 

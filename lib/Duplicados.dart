@@ -4,7 +4,9 @@ import 'dart:collection';
 // Input: ["Enano", "Goblin", "Enano", "Prostituta", "Goblin"]
 // Output: ["Enano", "Prostituta", "Goblin"]
 List<String> duplicado(List<String> lista) {
-  // Usamos un LinkedHashSet que mantiene el orden de inserción
+  // LinkedHashSet: elimina duplicados y mantiene el orden de inserción final
+// List: devuelve el resultado en formato de lista
+
   Set<String> map = new LinkedHashSet<String>();
 
   // Recorremos la lista de principio a fin
